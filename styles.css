@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+header {
+    margin: 47px 0 180px 42px;
+    position: sticky;
+
+    top: 20px;
+}
+
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 36px;
+    text-align: center;
+    color: #17233D;
+}
+
+.logo-img {
+    display: inline-block;
+    margin-left: 121px;
+}
+
+section {
+    margin-left: 84px;
+    width: 493px;
+    display: inline-block;
+}
+
+main {
+    display: inline-block;
+}
+
+
+.btn-header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    cursor: pointer;
+    border: none;
+
+
+    width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    width: 582px;
+    height: 164px;
+    margin-bottom: 47px;
+    color: #161A49;
+}
+
+p {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin-bottom: 55px;
+    margin-top: 57px;
+    color: #4B505A;
+}
+
+.section-link {
+    margin-top: 55px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+
+
+}
+
+@media (min-width: 1650px) and (min-width: 1350px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: inline-block;
+    }
+
+    section {
+        width: 30%;
+
+
+    }
+
+    .img-rd {
+
+        width: 45%;
+        display: inline-block;
+
+    }
+
+
+
+}
+
+@media (max-width:600px) {
+
+    body {
+
+
+        Width: 390px;
+        Height: 800px;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .btn-header {
+        margin-left: 126%;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        margin-top: 17px;
+        color: #FFFFFF;
+        position: static;
+        border: 1px solid #4CB538;
+        border-radius: 6px;
+        width: 91px;
+        height: 31px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        position: absolute;
+        text-align: center;
+        letter-spacing: 0.5px;
+        Width: 304px;
+        Height: 165px;
+        color: #4B505A;
+        margin-top: 79px;
+        margin-left: 100px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        position: absolute;
+        color: #161A49;
+        width: 45%;
+        margin-left: 106px;
+    }
+
+
+
+    .img-rd {
+        width: 354px;
+        height: 317px;
+        margin-top: 25%;
+        margin-left: 14px;
+        margin-right: 14px;
+        position: absolute;
+
+    }
+
+    .logo-img {
+        display: block;
+        width: 279.92px;
+        height: 268.93px;
+        object-fit: contain;
+        margin-top: 216px;
+        margin-left: 188px;
+    }
+
+    .section-link {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        position: absolute;
+        color: #6FBF44;
+        margin-top: 220px;
+        margin-left: 200px;
+    }
+
+}
+
+@media (max-width:590px) {
+    h1 {
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 40px;
+        position: absolute;
+        color: #161A49;
+        width: 60%;
+        margin-left: 80px;
+    }
+
+}
+
+@media (max-width:437px) {
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        position: absolute;
+        color: #161A49;
+        width: 60%;
+        margin-left: 142px;
+    }
+
+}
+
+@media (max-width:400px) and (min-width:300px) {
+    h1 {
+        width: 70%;
+        margin-left: 123px;
+    }
+
+    .section-link {
+        margin-top: 66%;
+        margin-left: 50%;
+        width: 50%;
+    }
+
+
+}
